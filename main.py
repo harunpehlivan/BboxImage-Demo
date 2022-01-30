@@ -10,7 +10,7 @@ fig, (ax1, ax2) = plt.subplots(ncols=2)
 # Create a BboxImage with Text
 # ----------------------------
 txt = ax1.text(0.5, 0.5, "test", size=30, ha="center", color="w")
-kwargs = dict()
+kwargs = {}
 
 bbox_image = BboxImage(txt.get_window_extent,
                        norm=None,
